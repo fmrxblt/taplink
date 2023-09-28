@@ -1,0 +1,131 @@
+@media screen and (max-width: 528px) {
+
+    @font-face {
+        font-family: "Monserrat";
+        font-weight: normal;
+        src: url(../fonts/Montserrat-Regular.ttf);
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    * {
+        text-decoration: none;
+        font-family: "Monserrat";
+    }
+    
+    
+    .body {
+        height: 100%;
+        margin-bottom: 0%;
+        background-color: #b5a642;
+        padding: 0px;
+    }
+    
+    html {
+        background-color: #b5a642;
+    }
+    .about .container {
+        display: block;
+        height: 100%;
+        
+    }
+    
+    .about {
+        background-color: #b5a642;
+        height: 100%;
+        margin-bottom: 0%;
+    }
+    
+    /* LEFT BLOCK */
+    
+    .about .leftBlock img {
+        height: 230px;
+        width: 230px;
+        border-radius: 20%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+    .about .leftBlock p {
+        margin:20px;
+        margin-top: 35px;
+        font-size: 20px;
+    
+    }
+    
+    .about .leftBlock {
+        display:block;
+        width: 70%;
+        height: 100%;
+        margin: 20px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-right: 0px;
+        background-color: #918151;
+        border-radius: 5%;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    /* RIGHT BLOCK */
+    
+    .about .rightBlock {
+        display: block;
+    }
+    
+    
+    .about .rightBlock ul {
+        list-style: none;
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 85%;
+        margin-right: 0px;
+    }
+    
+    .about .rightBlock ul li {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    .about .rightBlock a {
+        text-transform: uppercase;
+        display: block;
+        background-color: #556832;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        padding-top: 30px;
+        width: 70%;
+        border-radius: 10px;
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+        height: 35px;
+        margin-left: 0px;
+    }
+
+    .about .rightBlock a:hover {
+        text-transform: uppercase;
+        display: block;
+        background-color: #3a491d;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        padding-top: 30px;
+        width: 70%;
+        border-radius: 10px;
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+        height: 35px;
+        margin-left: 0px;
+    }
+    
+    
+    
+    
+    
+
+}
