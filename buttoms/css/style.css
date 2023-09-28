@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Monserrat";
+    font-weight: normal;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    text-decoration: none;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: "Monserrat";
+}
+
+
+.body {
+    height: 100%;
+    margin-bottom: 0%;
+    background-color: #b5a642;
+}
+
+html {
+    background-color: #b5a642;
+}
+.about .container {
+    display: block;
+    display: flex;
+    height: 100%;
+    
+}
+
+.about {
+    background-color: #b5a642;
+    height: 100%;
+    margin-bottom: 0%;
+}
+
+/* LEFT BLOCK */
+
+.about .leftBlock img {
+    height: 230px;
+    width: 230px;
+    border-radius: 20%;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.about .leftBlock p {
+    margin:20px;
+    margin-top: 35px;
+    margin-left: 45px;
+    font-size: 20px;
+
+}
+
+.about .leftBlock {
+    display:block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 500px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 0px;
+    background-color: #918151;
+    border-radius: 5%;
+}
+
+/* RIGHT BLOCK */
+
+.about .rightBlock {
+    /* position: relative; */
+    display: block;
+}
+
+
+.about .rightBlock ul {
+    /* position: absolute; */
+    list-style: none;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.about .rightBlock ul li {
+    margin-top: 15px;
+    /* height: 100px; */
+}
+
+.about .rightBlock a {
+    text-transform: uppercase;
+    display: block;
+    background-color: #556832;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-top: 30px;
+    width: 225%;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+}
+
+.about .rightBlock a:hover {
+    text-transform: uppercase;
+    display: block;
+    background-color: #3a491d;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 30px;
+    width: 225%;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+}
