@@ -51,6 +51,14 @@ html {
 
 }
 
+.about .leftBlock .H1 {
+    margin-bottom: 0px;
+}
+
+.about .leftBlock .text {
+    margin-top: 0px;
+}
+
 .about .leftBlock {
     display:block;
     display: flex;
